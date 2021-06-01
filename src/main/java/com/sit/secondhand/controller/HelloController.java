@@ -10,4 +10,9 @@ public class HelloController {
     public String startSpringBoot() {
         return "Hello, Welcome to the world of Spring Boot!";
     }
+
+    @RequestMapping("/spring")
+    public String getHtml() {
+        return "<h3>The Spring is inserted in the Web pages!</h3>";
+    }
 }
