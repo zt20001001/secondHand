@@ -15,4 +15,8 @@ public class HelloController {
     public String getSpringHtml() {
         return "<h3>The Spring is inserted in the Web pages!</h3>";
     }
+
+    public void sayHello(){
+        System.out.println("Hello, world!");
+    }
 }
