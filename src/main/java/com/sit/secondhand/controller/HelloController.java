@@ -12,7 +12,7 @@ public class HelloController {
     }
 
     @RequestMapping("/spring")
-    public String getHtml() {
+    public String getSpringHtml() {
         return "<h3>The Spring is inserted in the Web pages!</h3>";
     }
 }
